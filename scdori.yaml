@@ -1,0 +1,15 @@
+name: scdori
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - htslib
+  - bedtools
+  - pytorch::pytorch
+  - pytorch::pytorch-cuda=12.4
+  - numpy
+  - pandas
+  - scikit-learn
